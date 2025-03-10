@@ -1,0 +1,160 @@
+*
+{
+     padding: 0;
+     margin: 0;
+}
+body{
+     width: 100%;
+     height: 100vh;
+}
+#navbar
+{
+     position: sticky;
+     background-color:black;
+     color: white;
+     position: sticky;
+}
+#navbar a{
+     color:white;
+     font-family: bold;
+     padding-left: auto;
+}
+.con{
+     background: linear-gradient(135deg,#a510e0,#0acde7);
+     padding: 0;
+     margin: 0;
+     width: 100%;
+     height: 630px;
+}
+.search
+{
+     justify-content:space-between;
+     display:inline;
+      margin-left:10%;
+     padding-top:5%;
+     margin-top: 50px;
+}
+.search img{
+     width: 75%;
+     height: 75%;
+}
+#navbar a{
+     font-size:larger;
+}
+.search input{
+        height:45px;
+        width:45%;
+        border:0;
+        padding-left:10px;
+        outline: 0;
+        border-radius:30px;
+        font-size: 18px;
+        margin-top: 50px;
+}
+.search button
+{
+     border: 0;
+     background-color: white;
+     outline: 0;
+     border-radius:50%;
+     display: inline;
+     width: 45px;
+     height: 45px;
+     margin-left: 20px;
+     cursor: pointer;
+}
+.search img
+{
+     width: 25px;
+}
+.weather
+{
+     align-items: center;
+     justify-content: center;
+     padding-left:32%;
+     padding-top:30px;
+}
+.weather img{
+     width:23%;
+     height:23%;
+     padding-left:0;
+}
+.weather h1{
+     color: white;
+     font-size:30px;
+     padding-left:4%;
+}
+.weather h3{
+     color: white;
+     font-size:25px;
+     padding-left:4%;
+}
+.detail
+{
+   display:flex;
+   margin-top:40px;
+}
+.humidity
+{
+padding-left: 20%;
+color:white;
+
+}
+.humidity img
+{
+width: 40%;
+height:40%;
+}
+.wind
+{
+padding-left: 20%;
+color: white;
+}
+.wind img
+{
+width: 40%;
+height: 40%;
+}
+.h{
+     text-decoration: none;
+}
+.w
+{
+     text-decoration: none;
+}
+.footer
+{
+     width: 100%;
+     height:70px;
+     background-color: black;
+     bottom: 0;
+     position: relative;
+}
+.footer h5{
+     text-align: center;
+     color: white;
+     padding:20px;
+
+}
+#overlay
+{
+background-color: black;
+width: 80%;
+height: 300px;
+border-radius: 20px;
+left: 10%;
+top: 10%;
+display: none;
+z-index: 1;
+position: fixed;
+}
+#overlay_text
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top:120px;
+    position: relative;
+}
